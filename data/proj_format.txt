@@ -1,0 +1,44 @@
+
+System Prompt for IDE Agent:
+
+"I need you to generate a portfolio entry for this current project. Analyze my entire codebase (files, package.json, requirements.txt) and generate a Markdown entry following the STAR Method (Situation, Task, Action, Result).
+
+Strict Rules:
+
+Technical Depth: Do not just say "I built a game." Explain the engineering challenges (e.g., State Management, Latency, Memory Optimization).
+
+Multi-Domain Tagging: If the project uses heavy logic (like Game Loops or Physics Engines), tag it as Backend Engineering OR Systems Programming in the 'Type' field, not just 'Game Dev'.
+
+Metrics: Estimate realistic metrics based on the code's efficiency (e.g., 'O(n) complexity', '<50ms latency'). 
+
+Output Format:
+
+## PROJECT_ENTRY
+Name: [Project Name]
+Type: [Comma-separated Domains]
+Complexity: [Low/Medium/High]
+Date: [Current Date]
+Technical Skills
+Languages: [Extracted from code]
+Developer Tools: [Git, Docker, etc.]
+Technologies/Frameworks: [Extracted from code]
+-- CONTENT --
+Context: [1 sentence: The core problem/goal]
+Action: [1 sentence: The Architectural Solution (The "Why")]
+Action: [1 sentence: The Technical Implementation (The "How")]
+Result: [1 sentence: The Outcome/Performance Metric]
+
+## PROJECT_ENTRY
+Name: [Project Name]
+Type: [Primary Domain], [Secondary Domain] (e.g., Backend Engineering, System Design)
+Complexity: High
+Date: [Month Year]
+Technical Skills
+Languages: [List]
+Developer Tools: [List]
+Technologies/Frameworks: [List]
+-- CONTENT --
+Context: [Situation/Task] What problem were you solving? (e.g., "Designed a scalable chat server to handle 10k concurrent users.")
+Action: [Engineering/Architecture] HOW did you solve it? Mention specific algos, patterns, or architectural decisions. (e.g., "Implemented a custom binary protocol over TCP to reduce payload size by 40%.")
+Action: [Implementation/Optimization] What specific tech feature stands out? (e.g., "Optimized database locking mechanisms to prevent race conditions during high-load writes.")
+Result: [Metrics/Impact] Quantifiable outcome. (e.g., "Achieved sub-20ms latency and zero downtime during stress tests.") 

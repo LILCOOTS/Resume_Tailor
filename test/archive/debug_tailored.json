@@ -1,0 +1,52 @@
+{
+    "experience": [
+        {
+            "company": "InfoAxon Technologies",
+            "role": "AI Intern",
+            "dates": "Oct 2025 - Dec 2025",
+            "location": "Noida, UP",
+            "bullets": [
+                "Conducted feasibility research on automated name correction using phonetic algorithms (Soundex, Metaphone) and Levenshtein distance.",
+                "Engineered a robust Document OCR pipeline using Python, Tesseract, and OpenCV to automate data extraction from Aadhar, PAN, and Passports.",
+                "Achieved 90% accuracy on noisy document images by implementing custom deskewing and binarization preprocessing algorithms."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Adaptive Phishing Threat Detection Pipeline",
+            "tech_stack": "Flask, Scikit-learn, Docker, Git",
+            "date": "June 2025",
+            "bullets": [
+                "Built a high-throughput Flask REST API to serve model predictions using serialized classifiers.",
+                "Containerized the application and orchestrated deployment on AWS Elastic Beanstalk for auto-scaling.",
+                "Processed 10,000+ mock requests with <50ms inference latency and maintained 95% detection accuracy."
+            ]
+        },
+        {
+            "name": "Diabetic Retinopathy Detection",
+            "tech_stack": "TensorFlow, Keras, OpenCV, Python",
+            "date": "September 2025",
+            "bullets": [
+                "Applied Transfer Learning with ResNet50 to achieve high sensitivity on a limited medical dataset.",
+                "Implemented robust image augmentation (CLAHE, rotation) to handle class imbalance and lighting variations.",
+                "Achieved 92% validation accuracy and reduced false negatives by 15% compared to baseline models."
+            ]
+        },
+        {
+            "name": "End-To-End MLOps Pipeline",
+            "tech_stack": "DVC, MLflow, Docker, Git",
+            "date": "2025",
+            "bullets": [
+                "Integrated DVC for data versioning and MLflow to track experiment metrics across model iterations.",
+                "Designed a model-agnostic architecture serving as a reference implementation for rapid prototyping.",
+                "Reduced model deployment time by 40% and successfully handled versioning for 5+ concurrent experiments."
+            ]
+        }
+    ],
+    "skills": {
+        "languages": "Python",
+        "tools": "Docker, Git, AWS Elastic Beanstalk",
+        "frameworks": "Flask, Scikit-learn"
+    }
+}

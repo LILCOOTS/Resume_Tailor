@@ -1,0 +1,9 @@
+output/
+interview_prep/
+.env
+temp_build.*
+data/static_data.json
+data/master_portfolio.md
+data/job_description.txt
+data/jobs.csv
+
