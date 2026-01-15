@@ -1,6 +1,6 @@
-# 🚀 JobAgent - AI Resume Tailor & Interview Coach
+# 🚀 Resume-Tailor - Automated Resume Orchestrator
 
-**JobAgent** is a local-first automation tool that **tailors your resume** to specific job descriptions (JDs) and **generates a personalized interview prep guide** using Google's Gemini 2.5 Flash.
+**Resume-Tailor** is a local-first automation tool that **tailors your resume** to specific job descriptions (JDs) and **generates a personalized interview prep guide** using Google's Gemini 2.5 Flash.
 
 It ensures your resume is ATS-optimized, visually dense (but readable), and strictly formatted, while also acting as an expert career coach to prep you for the interview.
 

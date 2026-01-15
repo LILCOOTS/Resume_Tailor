@@ -1,6 +1,8 @@
 output/
 interview_prep/
 .env
+.gitignore
+test/
 temp_build.*
 data/static_data.json
 data/master_portfolio.md
